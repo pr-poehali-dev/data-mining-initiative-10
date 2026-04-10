@@ -2,8 +2,8 @@ import { useEffect, useRef, useState } from "react"
 
 const services = [
   {
-    title: "Жилые интерьеры",
-    description: "Полное преображение дома с учётом вашего образа жизни. От отдельных комнат до целых резиденций.",
+    title: "Дизайн дома",
+    description: "Превращаем ваш дом в место восполнения сил. Создаём атмосферу покоя и уюта, которая обнимает вас каждый вечер после рабочего дня.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
         <path
@@ -15,8 +15,8 @@ const services = [
     ),
   },
   {
-    title: "Планировка",
-    description: "Продуманные решения, создающие естественный поток и функциональные зоны для жизни, работы и отдыха.",
+    title: "Дизайн офиса",
+    description: "Офис, в который хочется приходить. Пространство, наполняющее вдохновением и настраивающее на продуктивность с первых минут.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
         <path
@@ -28,8 +28,8 @@ const services = [
     ),
   },
   {
-    title: "Подбор материалов",
-    description: "Натуральные материалы и авторские предметы ручной работы, которые красиво стареют и рассказывают историю.",
+    title: "Индивидуальный подход",
+    description: "Каждый проект — это диалог. Мы глубоко изучаем ваши потребности, образ жизни и бюджет, чтобы предложить решение именно для вас.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
         <path
@@ -41,8 +41,8 @@ const services = [
     ),
   },
   {
-    title: "Светодизайн",
-    description: "Многоуровневое освещение, меняющееся в течение дня, создающее атмосферу и поддерживающее благополучие.",
+    title: "Доступная премиальность",
+    description: "Высокое качество и продуманная эстетика — без завышенных цен. Работаем честно в рамках вашего бюджета, не жертвуя результатом.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
         <path
@@ -93,7 +93,7 @@ export function Services() {
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
           >
-            Что мы делаем
+            Как мы помогаем
           </h2>
         </div>
 
