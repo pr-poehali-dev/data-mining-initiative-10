@@ -28,8 +28,8 @@ export function Hero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          Команда
-          <span className="block text-sage">профессионалов</span>
+          Ваш ремонт.
+          <span className="block text-sage">Наш профессионализм.</span>
         </h1>
 
         {/* Subheadline */}
