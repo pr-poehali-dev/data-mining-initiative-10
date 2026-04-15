@@ -19,7 +19,7 @@ export function Hero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
           }`}
         >
-          Дизайн интерьеров для дома и офиса
+          Ремонт офисов и квартир — полный цикл
         </p>
 
         {/* Main Headline */}
@@ -28,8 +28,8 @@ export function Hero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          Пространства,
-          <span className="block text-sage">которые восстанавливают</span>
+          Команда
+          <span className="block text-sage">профессионалов</span>
         </h1>
 
         {/* Subheadline */}
@@ -38,7 +38,7 @@ export function Hero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          Создаём дома и офисы, в которые хочется возвращаться. Место силы, вдохновения и покоя — доступное каждому с индивидуальным подходом.
+          Берём на себя всё — от дизайна до чистовой отделки. Ремонтируем квартиры и офисы под ключ: в срок, в бюджет, без лишних хлопот для вас.
         </p>
 
         {/* CTA */}
